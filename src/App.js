@@ -5,6 +5,9 @@ import HeroSection from "./Components/heroSection";
 import Auction from "./Components/auction";
 import Sellers from "./Components/sellers";
 import Collection from "./Components/collection";
+import Explore from "./Components/explore";
+import Works from "./Components/works";
+
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
  <Auction></Auction>
  <Sellers></Sellers>
  <Collection></Collection>
+ <Explore></Explore>
+ <Works></Works>
  </>
   );
 }
