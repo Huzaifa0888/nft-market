@@ -705,7 +705,7 @@ export default function Example() {
                     </Tab.Group>
                   </div> */}
                 <div className="w-full h-fit px-4  ">
-                  <div className="mx-auto w-screen  max-w-md  bg-white p-2 text-lg">
+                  <div className="mx-auto w-screen  max-w-md  bg-gray-800 p-2 text-lg">
                     <Disclosure>
                       {({ open }) => (
                         <>
