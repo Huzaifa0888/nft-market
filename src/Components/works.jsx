@@ -12,7 +12,7 @@ function Works() {
             </h1>
           </div>
           <div className="mx-auto grid mt-7 max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none zlg:grid-cols-1">
-            <dl className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-4 lg:pt-2">
+            <dl className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-4 lg:pt-2">
               <div className="flex flex-col items-start">
                 <div className="rounded-md  pb-2 ">
                   <CalendarDaysIcon
