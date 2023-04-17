@@ -11,6 +11,7 @@ module.exports = {
       x: "900px", // Add a custom screen size
     },
     extend: {
+     
       fontFamily: {
         sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
       },

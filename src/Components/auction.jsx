@@ -63,7 +63,7 @@ function TechnologySolution() {
           <div className="grid max-w-full md:grid-cols-2 grid-cols-1  gap-6 mx-auto mt-8  lg:grid-cols-4 lg:max-w-full lg:gap-6">
             <div className="flex flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center flex-1 px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft4.jpg" alt="" className="" />
                 <div className="flex justify-between">
                   <div>
                     <h1 className="text-base mt-2 font-medium text-center text-white   lg:text-[12px]">
@@ -123,7 +123,7 @@ function TechnologySolution() {
             </div>
             <div className="flex flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center flex-1 px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft3.jpg" alt="" className="" />
                 <div className="flex justify-between">
                   <div>
                     <h1 className="text-base mt-2 font-medium text-center text-white   lg:text-[12px]">
@@ -183,7 +183,7 @@ function TechnologySolution() {
             </div>
             <div className="flex flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center flex-1 px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft4.jpg" alt="" className="" />
                 <div className="flex justify-between">
                   <div>
                     <h1 className="text-base mt-2 font-medium text-center text-white   lg:text-[12px]">
@@ -243,7 +243,7 @@ function TechnologySolution() {
             </div>
             <div className="flex flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center flex-1 px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft3.jpg" alt="" className="" />
                 <div className="flex justify-between">
                   <div>
                     <h1 className="text-base mt-2 font-medium text-center text-white   lg:text-[12px]">

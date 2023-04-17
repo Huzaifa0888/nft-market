@@ -11,17 +11,18 @@ import Footer from "./Components/footer";
 
 function App() {
   return (
- <>
- 
-<Header></Header>
-<HeroSection></HeroSection> 
- <Auction></Auction>
- <Sellers></Sellers>
- <Collection></Collection>
- <Explore></Explore>
- <Works></Works>
-<Footer></Footer>
- </>
+    <>
+      <section className='overflow-x-hidden'>
+        <Header></Header>
+        <HeroSection></HeroSection>
+        <Auction></Auction>
+        <Sellers></Sellers>
+        <Collection></Collection>
+        <Explore></Explore>
+        <Works></Works>
+        <Footer></Footer>
+      </section>
+    </>
   );
 }
 

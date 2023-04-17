@@ -7,7 +7,7 @@ function Collection() {
         <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8 ">
           <div className=" flex justify-between">
             <h1 className="text-2xl text-center font-normal text-white   pb-5 lg:text-[30px]">
-Popular Collections
+              Popular Collections
             </h1>
             <div className="flex">
               <h1 className="text-2xl mr-2 font-medium text-center text-white   lg:text-[18px]">
@@ -63,7 +63,7 @@ Popular Collections
           <div className="grid max-w-full md:grid-cols-2 grid-cols-1  gap-6 mx-auto mt-8  lg:grid-cols-4 lg:max-w-full lg:gap-6">
             <div className="flex h-fit flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center  px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft4.jpg" alt="" className="" />
                 <div className="    pb-0 mb-0  relative lg:left-[38%] left-[41%] bottom-8">
                   <img
                     class="flex-shrink-0 object-cover w-12 h-12 rounded-full"
@@ -82,7 +82,7 @@ Popular Collections
             </div>
             <div className="flex h-fit flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center  px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft3.jpg" alt="" className="" />
                 <div className="    pb-0 mb-0  relative lg:left-[38%] left-[41%] bottom-8">
                   <img
                     class="flex-shrink-0 object-cover w-12 h-12 rounded-full"
@@ -101,7 +101,7 @@ Popular Collections
             </div>{" "}
             <div className="flex h-fit flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center  px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft4.jpg" alt="" className="" />
                 <div className="    pb-0 mb-0  relative lg:left-[38%] left-[41%] bottom-8">
                   <img
                     class="flex-shrink-0 object-cover w-12 h-12 rounded-full"
@@ -120,7 +120,7 @@ Popular Collections
             </div>{" "}
             <div className="flex h-fit flex-col overflow-hidden bg-[#16151a] shadow-md rounded-md">
               <div className="flex flex-col justify-center  px-6 py-8">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft3.jpg" alt="" className="" />
                 <div className="    pb-0 mb-0  relative lg:left-[38%] left-[41%] bottom-8">
                   <img
                     class="flex-shrink-0 object-cover w-12 h-12 rounded-full"

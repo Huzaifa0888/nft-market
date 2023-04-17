@@ -30,7 +30,7 @@ export default function Example() {
             <div className="relative flex  items-center py-8">
               <div className="absolute inset-y-0 left-0   pt-8 items-center  pl-[90%] x:hidden block ">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className=" inline-flex  px-0.5 bg-sky-500 items-center rounded-md  text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">
+                <Disclosure.Button className=" inline-flex  px-0.5 bg-gray-800 items-center rounded-md  text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon
@@ -70,7 +70,7 @@ export default function Example() {
                           }
                         }}
                         className={classNames(
-                          false ? "bg-gray-900 text-white" : "text-white",
+                          false ? "bg-white text-white" : "text-white",
                           "rounded-md  py-2 text-[1.1rem] flex font-medium"
                         )}
                       >
@@ -107,8 +107,8 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
-                                    : "text-gray-900",
+                                    ? "bg-gray-100 text-white"
+                                    : "text-white",
                                   "block px-4 py-2 font-medium   text-sm"
                                 )}
                               >
@@ -122,7 +122,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -139,7 +139,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -154,7 +154,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -171,7 +171,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -186,7 +186,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -203,7 +203,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -243,7 +243,7 @@ export default function Example() {
                           }
                         }}
                         className={classNames(
-                          false ? "bg-gray-900 text-white" : "text-white",
+                          false ? "bg-white text-white" : "text-white",
                           "rounded-md  py-2 text-[1.1rem] flex font-medium"
                         )}
                       >
@@ -280,8 +280,8 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
-                                    : "text-gray-900",
+                                    ? "bg-gray-100 text-white"
+                                    : "text-white",
                                   "block px-4 py-2 font-medium   text-sm"
                                 )}
                               >
@@ -295,7 +295,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -312,7 +312,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -327,7 +327,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -344,7 +344,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -359,7 +359,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -376,7 +376,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -414,7 +414,7 @@ export default function Example() {
                           }
                         }}
                         className={classNames(
-                          false ? "bg-gray-900 text-white" : "text-white",
+                          false ? "bg-white text-white" : "text-white",
                           "rounded-md  py-2 text-[1.1rem] flex font-medium"
                         )}
                       >
@@ -451,8 +451,8 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
-                                    : "text-gray-900",
+                                    ? "bg-gray-100 text-white"
+                                    : "text-white",
                                   "block px-4 py-2 font-medium   text-sm"
                                 )}
                               >
@@ -466,7 +466,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -483,7 +483,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -498,7 +498,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -515,7 +515,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -530,7 +530,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -547,7 +547,7 @@ export default function Example() {
                                 href="#"
                                 className={classNames(
                                   active
-                                    ? "bg-gray-100 text-gray-900"
+                                    ? "bg-gray-100 text-white"
                                     : "text-gray-700",
                                   "block px-4 py-2 font-medium text-sm"
                                 )}
@@ -636,7 +636,7 @@ export default function Example() {
                               <div key={section.name}>
                                 <p
                                   id={`${category.id}-${section.id}-heading-mobile`}
-                                  className="font-bold text-gray-900"
+                                  className="font-bold text-white"
                                 >
                                   {section.name}
                                 </p>
@@ -649,7 +649,7 @@ export default function Example() {
                                     <li key={item.name} className="flow-root">
                                       <a
                                         href={item.href}
-                                        className="-m-2 block p-2 text-gray-500"
+                                        className="-m-2 block p-2 text-white"
                                       >
                                         {item.name}
                                       </a>
@@ -677,7 +677,7 @@ export default function Example() {
                               <div key={section.name}>
                                 <p
                                   id={`${category.id}-${section.id}-heading-mobile`}
-                                  className="font-bold text-gray-900"
+                                  className="font-bold text-white"
                                 >
                                   {section.name}
                                 </p>
@@ -690,7 +690,7 @@ export default function Example() {
                                     <li key={item.name} className="flow-root">
                                       <a
                                         href={item.href}
-                                        className="-m-2 block p-2 text-gray-500"
+                                        className="-m-2 block p-2 text-white"
                                       >
                                         {item.name}
                                       </a>
@@ -718,18 +718,18 @@ export default function Example() {
                                 <BiCaretDown className="ml-1 mt-2" />
                               )}
                             </Disclosure.Button>
-                            <Disclosure.Panel className="text-gray-500  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
+                            <Disclosure.Panel className="text-white  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
                               <div className="pl-2">
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
                               </div>
@@ -772,18 +772,18 @@ export default function Example() {
                                 <BiCaretDown className="ml-1 mt-2" />
                               )}
                             </Disclosure.Button>
-                            <Disclosure.Panel className="text-gray-500  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
+                            <Disclosure.Panel className="text-white  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
                               <div className="pl-2">
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
                               </div>
@@ -815,18 +815,18 @@ export default function Example() {
                                 <BiCaretDown className="ml-1 mt-2" />
                               )}
                             </Disclosure.Button>
-                            <Disclosure.Panel className="text-gray-500  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
+                            <Disclosure.Panel className="text-white  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
                               <div className="pl-2">
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
-                                <p className="font-bold text-gray-900 text-lg py-1">
+                                <p className="font-bold text-white text-lg py-1">
                                   Edit
                                 </p>
                               </div>

@@ -20,7 +20,7 @@ function Footer() {
                   <a
                     href="#"
                     title=""
-                    className="flex items-center justify-center text-blue-600 transition-all duration-200 bg-white rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                    className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-10 h-10 "
                   >
                     <svg
                       className="w-4 h-4"
@@ -37,7 +37,7 @@ function Footer() {
                   <a
                     href="#"
                     title=""
-                    className="flex items-center justify-center text-blue-600 transition-all duration-200 bg-white rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                    className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-10 h-10 "
                   >
                     <svg
                       className="w-4 h-4"
@@ -54,7 +54,7 @@ function Footer() {
                   <a
                     href="#"
                     title=""
-                    className="flex items-center justify-center text-blue-600 transition-all duration-200 bg-white rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                    className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-10 h-10 "
                   >
                     <svg
                       className="w-4 h-4"
@@ -73,7 +73,7 @@ function Footer() {
                   <a
                     href="#"
                     title=""
-                    className="flex items-center justify-center text-blue-600 transition-all duration-200 bg-white rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                    className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-10 h-10 "
                   >
                     <svg
                       className="w-4 h-4"
@@ -217,7 +217,7 @@ function Footer() {
                 Subscribe to newsletter
               </p>
 
-              <form action="#" method="POST" className="mt-6">
+              <form action="#" method="POST" className="mt-6 ">
                 <div>
                   <label for="email" className="sr-only">
                     Email
@@ -227,13 +227,13 @@ function Footer() {
                     name="email"
                     id="email"
                     placeholder="Enter your email"
-                    className="block w-full p-4 text-white placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                    className="block w-full p-4 text-white placeholder-gray-500 transition-all duration-200  border border-gray-800 bg-gray-800 rounded-md focus:outline-none "
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="flex items-center lg:w-36 w-[100%] justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700"
+                  className="flex items-center lg:w-32 w-[100%] justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-gray-800 rounded-md "
                 >
                   Subscribe
                 </button>
@@ -249,15 +249,7 @@ function Footer() {
           </p>
 
           <div className="lg:flex md:flex block  ">
-            <p className="text-md text-center text-white px-4">
-              Privacy Policy
-            </p>
-            <p className="text-3xl relative bottom-2 font-normal text-center text-white px-4 hidden lg:block ">
-              |
-            </p>
-            <p className="pl-4 text-md text-center text-white">
-              Terms & Conditions
-            </p>
+            <p className="text-md text-center text-white ">Privacy Policy</p>
           </div>
         </div>
       </section>

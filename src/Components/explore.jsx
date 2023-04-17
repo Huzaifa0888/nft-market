@@ -61,9 +61,9 @@ function Explore() {
           </div>
 
           <div className="grid max-w-full md:grid-cols-2 grid-cols-1  gap-6 mx-auto mt-8  lg:grid-cols-4 lg:max-w-full lg:gap-12">
-            <div className="flex flex-col overflow-hidden w-60 bg-[#16151a] shadow-md rounded-lg">
+            <div className="flex flex-col overflow-hidden w-full bg-[#16151a] shadow-md rounded-lg">
               <div className="flex flex-col justify-center  px-5 py-5">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft3.jpg" alt="" className="h-full" />
 
                 <h1 className="text-2xl mt-5 font-bold  text-white   lg:text-[16px]">
                   Domain Names
@@ -88,9 +88,9 @@ function Explore() {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col overflow-hidden w-60 bg-[#16151a] shadow-md rounded-lg">
+            <div className="flex flex-col overflow-hidden w-full bg-[#16151a] shadow-md rounded-lg">
               <div className="flex flex-col justify-center  px-5 py-5">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft4.jpg" alt="" className="h-full" />
 
                 <h1 className="text-2xl mt-5 font-bold  text-white   lg:text-[16px]">
                   Domain Names
@@ -115,9 +115,9 @@ function Explore() {
                 </button>
               </div>
             </div>{" "}
-            <div className="flex flex-col overflow-hidden w-60 bg-[#16151a] shadow-md rounded-lg">
+            <div className="flex flex-col overflow-hidden w-full bg-[#16151a] shadow-md rounded-lg">
               <div className="flex flex-col justify-center  px-5 py-5">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft3.jpg" alt="" className="h-full" />
 
                 <h1 className="text-2xl mt-5 font-bold  text-white   lg:text-[16px]">
                   Domain Names
@@ -141,9 +141,10 @@ function Explore() {
                   Place a bid
                 </button>
               </div>
-            </div>   <div className="flex flex-col overflow-hidden w-60 bg-[#16151a] shadow-md rounded-lg">
+            </div>
+            <div className="flex flex-col overflow-hidden w-full bg-[#16151a] shadow-md rounded-lg">
               <div className="flex flex-col justify-center  px-5 py-5">
-                <img src="/technology.webp" alt="" className="" />
+                <img src="/nft4.jpg" alt="" className="h-full" />
 
                 <h1 className="text-2xl mt-5 font-bold  text-white   lg:text-[16px]">
                   Domain Names

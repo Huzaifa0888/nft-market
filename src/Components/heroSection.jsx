@@ -3,7 +3,7 @@ import React from 'react'
 function HeroSection() {
   return (
     <>
-      <div className="bg-[#121117] h-full w-full   ">
+      <div className="bg-[#121117]  h-full w-full   ">
         <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px] ">
           <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
