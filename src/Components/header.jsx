@@ -590,8 +590,8 @@ export default function Example() {
             </div>
           </div>
 
-          <Disclosure.Panel className="x:hidden  max-w-640 mx-auto ">
-            <div className="flex px-4 justify-start pb-2 pt-5">
+          <Disclosure.Panel className="x:hidden block bg-gray-800 max-w-640 mx-auto ">
+            <div className="flex px-4 justify-start  pb-2 pt-5">
               <button
                 type="button"
                 className="-m-2 inline-flex items-center justify-center  text-gray-400"
@@ -705,7 +705,7 @@ export default function Example() {
                     </Tab.Group>
                   </div> */}
                 <div className="w-full h-fit px-4  ">
-                  <div className="mx-auto w-screen  max-w-md  bg-gray-800 p-2 text-lg">
+                  <div className="mx-auto w-screen  max-w-md  p-2 text-lg">
                     <Disclosure>
                       {({ open }) => (
                         <>
