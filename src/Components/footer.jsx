@@ -217,8 +217,8 @@ function Footer() {
                 Subscribe to newsletter
               </p>
 
-              <form action="#" method="POST" className="mt-6 ">
-                <div>
+              <form action="#" method="POST" className="block lg:flex mt-6 ">
+                <div className="">
                   <label for="email" className="sr-only">
                     Email
                   </label>
@@ -227,13 +227,14 @@ function Footer() {
                     name="email"
                     id="email"
                     placeholder="Enter your email"
-                    className="block w-full p-4 text-white placeholder-gray-500 transition-all duration-200  border border-gray-800 bg-gray-800 rounded-md focus:outline-none "
+                    className="block w-full p-4 text-white placeholder-gray-500 transition-all duration-200  border-y border-l border-r-0 border-gray-800 bg-gray-800 rounded-md rounded-r-none focus:outline-none "
                   />
                 </div>
 
+                
                 <button
                   type="submit"
-                  className="flex items-center lg:w-32 w-[100%] justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-gray-800 rounded-md "
+                  className="lg:relative right-5 flex items-center lg:w-24 w-[100%] justify-center px-6 py-4 lg:mt-0 mt-3 font-semibold text-white transition-all duration-200 bg-indigo-900 rounded-md lg:rounded-l-full text-sm"
                 >
                   Subscribe
                 </button>
